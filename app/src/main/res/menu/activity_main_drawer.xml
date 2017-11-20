@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Group Label">
+        <menu>
+            <item android:id="@+id/nav_MetaisTransicao"
+                android:icon="@drawable/ic_colorMetaisTransicao"
+                android:title="@string/met_is_de_transi_o"/>
+
+            <item android:id="@+id/nav_colorLantanideos"
+                android:icon="@drawable/ic_colorLantanideos"
+                android:title="@string/lantan_deos"/>
+
+            <item android:id="@+id/nav_colorActinideos"
+                android:icon="@drawable/ic_colorActinideos"
+                android:title="@string/actin_deos"/>
+
+            <item android:id="@+id/nav_colorSemiMetais"
+                android:icon="@drawable/ic_colorSemiMetais"
+                android:title="@string/semi_metais"/>
+
+            <item android:id="@+id/nav_colorNaoMetais"
+                android:icon="@drawable/ic_colorNaoMetais"
+                android:title="@string/n_o_metais"/>
+
+            <item android:id="@+id/nav_colorHalogenios"
+                android:icon="@drawable/ic_colorHalogenios"
+                android:title="@string/halogenios"/>
+
+            <item android:id="@+id/nav_colorGasesNobres"
+                android:icon="@drawable/ic_colorGasesNobres"
+                android:title="@string/gases_nobres"/>
+
+            <item android:id="@+id/nav_colorMetaisAlcalinos"
+                android:icon="@drawable/ic_colorMetaisAlcalinos"
+                android:title="@string/metais_alcalinos"/>
+
+            <item android:id="@+id/nav_colorMetaisAlcalinoTerrosos"
+                android:icon="@drawable/ic_colorMetaisAlcalinoTerrosos"
+                android:title="@string/metais_alcalino_terrosos"/>
+
+            <item android:id="@+id/nav_colorMetaisRepresentativos"
+                android:icon="@drawable/ic_colorMetaisRepresentativos"
+                android:title="@string/met_is_representativos"/>
+       </menu>
+    </item>
+</menu>

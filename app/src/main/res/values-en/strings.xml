@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Periodic Table</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="btnBack">Back</string>
+    <string name="btnWikipedia">More info (Wikipedia)</string>
+    <string name="btnShare">Share</string>
+    <string name="tvResult_LatinName">Latim name:</string>
+    <string name="tvResultGroupName">Group name:</string>
+    <string name="tvResultPeriod">Period:</string>
+    <string name="tvAtomicWeight">Atomic Weight:</string>
+    <string name="tvResultDensity">Density:</string>
+    <string name="tvResultPontoFusao">Melting poiting:</string>
+    <string name="tvResultPontoEbulicao">Boling pointing:</string>
+    <string name="metais_alcalinos">Alkali Metals</string>
+    <string name="met_is_de_transi_o">Transition Metals</string>
+    <string name="metais_alcalino_terrosos">" Alkaline-earth metals"</string>
+    <string name="lantan_deos">Lanthanides</string>
+    <string name="actin_deos">Actinides</string>
+    <string name="met_is_representativos">"Representative metals "</string>
+    <string name="semi_metais">"Semi-metals "</string>
+    <string name="n_o_metais">"Non-metals "</string>
+    <string name="halogenios">Halogen</string>
+    <string name="gases_nobres">"Noble gases "</string>
+    <string name="action_settings">Settings:</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="z">Z:</string>
+    <string name="name">Element:</string>
+    <string name="group">Group:</string>
+    <string name="originName">Origin name:</string>
+    <string name="abundancia">Abundance (mg/kg)</string>
+    <string name="tvResultTitle">Element Details</string>
+    <string name="tvResultTitle2">Properties</string>
+    <string name="network_connection">No internet connection. Check your connection and try again.</string>
+    <string name="loading">"Loading... Wait, please... "</string>
+    <string name="title_activity_result2">Periodic Table</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

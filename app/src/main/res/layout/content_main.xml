@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.ddmsoftware.periodictable.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal|vertical">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="horizontal">
+
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light"
+                android:columnCount="19"
+                android:rowCount="13">
+
+                <!-- Titulo das Linhas -->
+
+                <TextView
+                    android:id="@+id/Row1"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="1"
+                    android:gravity="center_vertical"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/Row2"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="2"
+                    android:gravity="center_vertical"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/Row3"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="3"
+                    android:gravity="center_vertical"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/Row4"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="4"
+                    android:gravity="center_vertical"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/Row5"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="5"
+                    android:gravity="center_vertical"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/Row6"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="6"
+                    android:gravity="center_vertical"
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/Row7"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="7"
+                    android:gravity="center_vertical"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <android.support.v4.widget.Space
+                    android:layout_height="25dp"
+                    android:layout_column="0"
+                    android:layout_row="8" />
+
+
+                <!-- titulo das Colunas -->
+
+                <TextView
+                    android:id="@+id/Column1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column2"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column3"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column4"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column5"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column6"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="6"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column7"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="7"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column8"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="8"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="8"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column9"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="9"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="9"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column10"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="10"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column11"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="11"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="11"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column12"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="12"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="12"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column13"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="13"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="13"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column14"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="14"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="14"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column15"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="15"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="15"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column16"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="16"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="16"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column17"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="17"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="17"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Column18"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="18"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_row="0"
+                    android:gravity="center_vertical"
+                    android:text="18"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <!-- End of Columns header -->
+
+                <!-- Begin of Subtitles -->
+
+                <!--
+                <GridLayout
+                    android:id="@+id/gridLegenda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_column="3"
+                    android:layout_columnSpan="10"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_row="1"
+                    android:layout_rowSpan="3"
+                    android:columnCount="6"
+                    android:gravity="center_horizontal"
+                    android:rowCount="5">
+
+                    <TextView
+                        android:id="@+id/textView121"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="0"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="1dp"
+                        android:layout_row="2"
+                        android:background="#eba182"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvLabelMetaisTransicao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="0"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/metais_alcalinos"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView122"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_row="3"
+                        android:background="#c5b894"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView129"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/metais_alcalino_terrosos"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView123"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_row="4"
+                        android:background="#fdc5e1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView130"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="2"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/met_is_de_transi_o"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView124"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_row="1"
+                        android:autoText="false"
+                        android:background="#4eb668"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView131"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="3"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/lantan_deos"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView125"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_row="2"
+                        android:background="#1ade14"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView132"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="4"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/actin_deos"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView126"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_row="3"
+                        android:background="#82ebe4"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#1f2dc6"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView133"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="0"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/met_is_representativos"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView127"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_row="4"
+                        android:background="#71adf6"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#1f2dc6"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView134"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/semi_metais"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView119"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_row="0"
+                        android:background="#f78d14"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView135"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="2"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/n_o_metais"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView120"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_row="1"
+                        android:background="#f7d914"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView136"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="3"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/halogenios"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView128"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_row="0"
+                        android:background="#88c698"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvLabelGasesNobre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_gravity="center_vertical"
+                        android:layout_row="4"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/gases_nobres"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="14sp" />
+
+                </GridLayout> -->
+
+
+                <!-- End of Subtitles -->
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adViewMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_columnSpan="10"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_row="3"
+                    android:gravity="center_horizontal"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_TESTE" />
+
+                <TextView
+                    android:id="@+id/tvHydrogenium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_row="1"
+                    android:background="#1ade14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvHelium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="1"
+                    android:background="#71adf6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="He"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvLithium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:background="#f78d14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Li"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvAluminium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="AI"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSilicon"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#4eb668"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Si"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPhosphorus"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#1ade14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="P"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSulfur"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#1ade14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="S"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvChlorine"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#82ebe4"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="CI"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvArgon"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#71adf6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ar"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPotassium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#f78d14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="K"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCalcium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#f7d914"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ca"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvScandium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Sc"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRubidium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#f78d14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Rb"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvStrontium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#f7d914"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Sr"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvYttrium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Y"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvZirconium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Zr"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvNiobium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Nb"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvMolybdenum"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Mo"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTechnetium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="7"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Tc"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRuthenium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ru"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRhodium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="9"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Rh"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPalladium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Pd"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSilver"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ag"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCadmium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="12"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Cd"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvIndium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="In"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTin"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Sn"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvAntimony"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:autoText="false"
+                    android:background="#4eb668"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Sb"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTellurium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:autoText="false"
+                    android:background="#4eb668"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Te"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvIodine"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#82ebe4"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="I"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvXenon"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="5"
+                    android:background="#71adf6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Xe"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCaesium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#f78d14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Cs"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBarium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#f7d914"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ba"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvHafnium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Hf"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTantalum"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ta"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTungsten"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="W"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRhenium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="7"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Re"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvOsmium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Os"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvIridium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="9"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ir"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPlatinum"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Pt"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvGold"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Au"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvMercury"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="12"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Hg"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fe0000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvThallium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="TI"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvLead"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:autoText="false"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Pb"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBismuth"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Bi"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPolonium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:autoText="false"
+                    android:background="#4eb668"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Po"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvAstatine"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#82ebe4"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="At"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRadon"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="6"
+                    android:background="#71adf6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Rn"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvFrancium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#f78d14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Fr"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBeryllium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:background="#f7d914"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Be"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBoron"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:autoText="false"
+                    android:background="#4eb668"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="B"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCarbon"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:background="#1ade14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="C"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvNitrogen"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:background="#1ade14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="N"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvOxygen"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:background="#1ade14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="O"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvFluorine"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:background="#82ebe4"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="F"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvNeon"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="2"
+                    android:background="#71adf6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ne"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSodium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_alignEnd="@+id/gridLayout"
+                    android:layout_alignRight="@+id/gridLayout"
+                    android:layout_below="@+id/gridLayout"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#f78d14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Na"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvMagnesium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_row="3"
+                    android:background="#f7d914"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Mg"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRadium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#f7d914"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ra"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTitanium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ti"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRutherfordium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Rf"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvVanadium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="V"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvChromium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Cr"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvManganese"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="7"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Mn"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvIron"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Fe"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCobalt"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="9"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Co"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvNickel"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ni"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCopper"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Cu"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvZinc"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="12"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Zn"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvGallium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ga"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvGermanium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:autoText="false"
+                    android:background="#4eb668"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ge"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvArsenic"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:autoText="false"
+                    android:background="#4eb668"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="As"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSelenium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#1ade14"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Se"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBromine"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#82ebe4"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Br"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fe0000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvKrypton"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="4"
+                    android:background="#71adf6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Kr"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvDubnium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Db"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSeaborgium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Sg"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBohrium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="7"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Bh"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvHassium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Hs"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvMeitnerium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="9"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Mt"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvDarmstadtium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ds"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRoentgenium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Rg"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCopernicium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="12"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#eba182"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Cn"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvUnuntrium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Uut"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvFlerovium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Fl"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvUnunpentium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Uup"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvLivermorium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#88c698"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Lv"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvUnunseptium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#82ebe4"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Uus"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvUnunoctium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="7"
+                    android:background="#71adf6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Uuo"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#1f2dc6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvLanthanum"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="La"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCerium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ce"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPraseodymium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Pr"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvNeodymium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="7"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Nd"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPromethium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Pm"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSamarium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="9"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Sm"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvEuropium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Eu"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvGadolinium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Gd"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTerbium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="12"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Tb"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvDysprosium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Dy"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvHolmium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ho"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvErbium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Er"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvThulium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Tm"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvYtterbium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Yb"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvLutetium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="9"
+                    android:background="#c5b894"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Lu"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvActinium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Ac"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvThorium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Th"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvProtactinium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Pa"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvUranium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="7"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="U"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvNeptunium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Np"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPlutonium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="9"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Pu"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvAmericium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Am"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCurium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Cm"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBerkelium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="12"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Bk"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCalifornium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="13"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Cf"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvEinsteinium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="14"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Es"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvFermium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="15"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Fm"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvMendelevium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="16"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Md"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvNobelium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="17"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="No"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvLawrencium"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_column="18"
+                    android:layout_margin="1dp"
+                    android:layout_row="10"
+                    android:background="#fdc5e1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/lr"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="12sp" />
+
+            </GridLayout>
+
+        </HorizontalScrollView>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+

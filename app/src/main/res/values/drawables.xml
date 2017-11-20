@@ -1,0 +1,21 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_colorTeste" type="drawable" format="color">@color/colorMetaisTransicao</item>
+    <item name="ic_Orange" type="drawable" format="color">@color/colorOrange</item>
+
+    <item name="ic_colorMetaisTransicao" type="drawable" format="color">@color/colorMetaisTransicao</item>
+    <item name="ic_colorLantanideos" type="drawable" format="color">@color/colorLantanideos</item>
+    <item name="ic_colorActinideos" type="drawable" format="color">@color/colorActinideos</item>
+    <item name="ic_colorSemiMetais" type="drawable" format="color">@color/colorSemiMetais</item>
+    <item name="ic_colorNaoMetais" type="drawable" format="color">@color/colorNaoMetais</item>
+    <item name="ic_colorHalogenios" type="drawable" format="color">@color/colorHalogenios</item>
+    <item name="ic_colorGasesNobres" type="drawable" format="color">@color/colorGasesNobres</item>
+    <item name="ic_colorMetaisAlcalinos" type="drawable" format="color">@color/colorMetaisAlcalinos</item>
+    <item name="ic_colorMetaisAlcalinoTerrosos" type="drawable" format="color">@color/colorMetaisAlcalinoTerrosos</item>
+    <item name="ic_colorMetaisRepresentativos" type="drawable" format="color">@color/colorMetaisRepresentativos</item>
+</resources>

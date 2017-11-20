@@ -1,0 +1,52 @@
+<resources>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">CANCELAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="btnBack">Voltar</string>
+    <string name="btnWikipedia">Mais informações (Wikipedia)</string>
+    <string name="btnShare">Compartilhar</string>
+    <string name="tvResult_LatinName">Nome em Latim: </string>
+    <string name="tvResultGroupName">Nome do Grupo: </string>
+    <string name="tvResultPeriod">Período: </string>
+    <string name="tvAtomicWeight">Massa Atômica: </string>
+    <string name="tvResultDensity">Densidade: </string>
+    <string name="tvResultPontoFusao">Ponto de Fusão: </string>
+    <string name="tvResultPontoEbulicao">Ponto de Ebulição: </string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1098336821710456/5195031604</string>
+    <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="lr" translatable="false">Lr</string>
+    <string name="app_name">Tabela Periódica</string>
+    <string name="metais_alcalinos">Metais Alcalinos</string>
+    <string name="metais_alcalino_terrosos">Metais Alcalino-terrosos</string>
+    <string name="met_is_de_transi_o">Metais de Transição</string>
+    <string name="lantan_deos">Lantanídeos</string>
+    <string name="actin_deos">Actinídeos</string>
+    <string name="met_is_representativos">Metais representativos</string>
+    <string name="semi_metais">Semi-metais</string>
+    <string name="n_o_metais">Não-metais</string>
+    <string name="halogenios">Halogenios</string>
+    <string name="gases_nobres">Gases nobres</string>
+    <string name="action_settings">Configurações</string>
+    <string name="advertisement">Patrocínio:</string>
+    <string name="z">Número Atômico (Z):</string>
+    <string name="name">Elemento:</string>
+    <string name="group">Grupo:</string>
+    <string name="pipe" translatable="false">|</string>
+    <string name="originName">Origem do Nome:</string>
+    <string name="abundancia">Abundancia (mg/kg):</string>
+    <string name="CJC_10" translatable="false">C  J/(g·K):</string>
+    <string name="x10" translatable="false">χ10:</string>
+    <string name="tvResultTitle">  Detalhes do Elemento</string>
+    <string name="tvResultTitle2">  Propriedades</string>
+    <string name="network_connection">Sem conexão com a internet. Verifique sua conexão e tente novamente</string>
+    <string name="title_activity_splash" translatable="false">Splash</string>
+    <string name="loading">Carregando. Por favor, aguarde...</string>
+    <string name="title_activity_result2">Tabela Periódica</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

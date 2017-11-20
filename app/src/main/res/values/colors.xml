@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrange">#ffa640</color>
+    <color name="colorMetaisTransicao">#FFEBA182</color>
+    <color name="colorLantanideos">#FFC5B894</color>
+    <color name="colorActinideos">#FFFDC5E1</color>
+    <color name="colorSemiMetais">#FF4EB668</color>
+    <color name="colorNaoMetais">#FF1ADE14</color>
+    <color name="colorHalogenios">#82ebe4</color>
+    <color name="colorGasesNobres">#71adf6</color>
+    <color name="colorMetaisAlcalinos">#f78d14</color>
+    <color name="colorMetaisAlcalinoTerrosos">#f7d914</color>
+    <color name="colorMetaisRepresentativos">#88c698</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
