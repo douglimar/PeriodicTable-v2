@@ -1,233 +1,306 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
-MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e2534f7d47e2bd224c93355880a44195\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\ceb4fcc249e10a3aabade49ace0806cd\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\acb2797561a3752f8ee026778a6fac75\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dcc72079cbe729a7480ab383717bed2d\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-ads:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.6.0.aar\355e181e7f2cc7310b7aaed052d54e1f\AndroidManifest.xml:16:1-18:12
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:16:1-27:12
-MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c38976935a4d37a689d2a4e8aa85d7d\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\4d4ac1bb8fb3211c613d7e96ca15e11a\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1c42ad5086ef743089e2c5940fa22f7\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\87eac159ca6ca3fd4b048c4bdf7402e4\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\214690c4f5fc0ac1a06c8bed86c5a335\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\bb47007e2e71c79d777cf26c5e22dfdd\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\2c9e5a42bbc984bc5cf01ee6e6c54d21\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8229615fb10f1bd8968aad903e9a6885\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\20bcfcaae047b8264cc0fb0f6616778e\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\096ec8f8aefa9fa7132292807b830cee\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3f9e48c9c90575462e6bfd3e20610d7a\AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\28314cd5f9e28df7e60ca2dc9b599fa9\AndroidManifest.xml:2:1-6:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:17:1-30:12
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\c5e6e58f3eedd2137decb91ebcd08302\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\0d1525447b4cac372a829d546ceb3bbd\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\1e0c3f5792f4f37ceb8edb7ded86e28d\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
+MERGED from [com.google.firebase:firebase-core:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.0.aar\9fb92cb65f9639f324c0e91bdea460d9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7ca19982c7fd075cdc86b20da01f9688\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\5aa6ad6a95705d961c146f10ce55d185\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\aa889da0e5c50444898cbca05a078353\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a0cd8c35584b393cb82cea909a1a31a6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.6.0.aar\9ac885119385f89cec79f91840975e6a\AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c3b612a5ae1a9ebca02f223dd4c633f\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\a2b9f81e52717f11a5f85e89d5774e1c\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\a8ff66ffb6a516ad59ec5cb979d89129\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6648f52aa4795a44263a48d0dbe77de1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0d12e869073f7afad612d75db6fcc355\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\dc7c4becd899bd8fbad05dba4348d196\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\06224263ab5a82665fc692c130378ba4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fb9f1e3a16b03681c65b3ece67339a62\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\bdbf0ab19da9158a57b02d94274800b4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a880a70540ae6921c4501c1ce2cc0cf1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5db6a02cc15aecb61998deca38465f9f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfeae29fd2c159ed58ed023c73916c46\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\35374e53f3d195cc69c21b01c3b7ab63\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.0.aar\e2aa55359964c7401849c78a4af5d53c\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\1f011acf369ffa39bb497bce519d5659\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ed064631ddd4de34b4cb651142d1046f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\06e083e616f334e64701f1091c34faea\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\c589722dc3b4cbea216e6aabca236c44\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.0.aar\67bee67ebf6348db35656e9d9410799f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\910be0f49c9125adda971b48296aec19\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.0.aar\e4f3796062b73694b5c1b9f3015a9b45\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:3:5-47
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:4:5-47
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:19:5-66
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:20:5-78
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:8:22-76
 application
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:9:5-50:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e2534f7d47e2bd224c93355880a44195\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e2534f7d47e2bd224c93355880a44195\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\ceb4fcc249e10a3aabade49ace0806cd\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\ceb4fcc249e10a3aabade49ace0806cd\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\acb2797561a3752f8ee026778a6fac75\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\acb2797561a3752f8ee026778a6fac75\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dcc72079cbe729a7480ab383717bed2d\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dcc72079cbe729a7480ab383717bed2d\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c38976935a4d37a689d2a4e8aa85d7d\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c38976935a4d37a689d2a4e8aa85d7d\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\4d4ac1bb8fb3211c613d7e96ca15e11a\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\4d4ac1bb8fb3211c613d7e96ca15e11a\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1c42ad5086ef743089e2c5940fa22f7\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1c42ad5086ef743089e2c5940fa22f7\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\87eac159ca6ca3fd4b048c4bdf7402e4\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\87eac159ca6ca3fd4b048c4bdf7402e4\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\214690c4f5fc0ac1a06c8bed86c5a335\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\214690c4f5fc0ac1a06c8bed86c5a335\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\bb47007e2e71c79d777cf26c5e22dfdd\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\bb47007e2e71c79d777cf26c5e22dfdd\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\2c9e5a42bbc984bc5cf01ee6e6c54d21\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\2c9e5a42bbc984bc5cf01ee6e6c54d21\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8229615fb10f1bd8968aad903e9a6885\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8229615fb10f1bd8968aad903e9a6885\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\20bcfcaae047b8264cc0fb0f6616778e\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\20bcfcaae047b8264cc0fb0f6616778e\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\096ec8f8aefa9fa7132292807b830cee\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\096ec8f8aefa9fa7132292807b830cee\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3f9e48c9c90575462e6bfd3e20610d7a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3f9e48c9c90575462e6bfd3e20610d7a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\28314cd5f9e28df7e60ca2dc9b599fa9\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\28314cd5f9e28df7e60ca2dc9b599fa9\AndroidManifest.xml:5:5-20
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\c5e6e58f3eedd2137decb91ebcd08302\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\c5e6e58f3eedd2137decb91ebcd08302\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\0d1525447b4cac372a829d546ceb3bbd\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\0d1525447b4cac372a829d546ceb3bbd\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\1e0c3f5792f4f37ceb8edb7ded86e28d\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\1e0c3f5792f4f37ceb8edb7ded86e28d\AndroidManifest.xml:5:5-20
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:10:5-53:19
+MERGED from [com.google.firebase:firebase-core:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.0.aar\9fb92cb65f9639f324c0e91bdea460d9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.0.aar\9fb92cb65f9639f324c0e91bdea460d9\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7ca19982c7fd075cdc86b20da01f9688\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7ca19982c7fd075cdc86b20da01f9688\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\5aa6ad6a95705d961c146f10ce55d185\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\5aa6ad6a95705d961c146f10ce55d185\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\aa889da0e5c50444898cbca05a078353\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\aa889da0e5c50444898cbca05a078353\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a0cd8c35584b393cb82cea909a1a31a6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a0cd8c35584b393cb82cea909a1a31a6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c3b612a5ae1a9ebca02f223dd4c633f\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c3b612a5ae1a9ebca02f223dd4c633f\AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\a2b9f81e52717f11a5f85e89d5774e1c\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\a2b9f81e52717f11a5f85e89d5774e1c\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\a8ff66ffb6a516ad59ec5cb979d89129\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\a8ff66ffb6a516ad59ec5cb979d89129\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6648f52aa4795a44263a48d0dbe77de1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6648f52aa4795a44263a48d0dbe77de1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0d12e869073f7afad612d75db6fcc355\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0d12e869073f7afad612d75db6fcc355\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\dc7c4becd899bd8fbad05dba4348d196\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\dc7c4becd899bd8fbad05dba4348d196\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\06224263ab5a82665fc692c130378ba4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\06224263ab5a82665fc692c130378ba4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fb9f1e3a16b03681c65b3ece67339a62\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fb9f1e3a16b03681c65b3ece67339a62\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\bdbf0ab19da9158a57b02d94274800b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\bdbf0ab19da9158a57b02d94274800b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a880a70540ae6921c4501c1ce2cc0cf1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a880a70540ae6921c4501c1ce2cc0cf1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5db6a02cc15aecb61998deca38465f9f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5db6a02cc15aecb61998deca38465f9f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfeae29fd2c159ed58ed023c73916c46\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfeae29fd2c159ed58ed023c73916c46\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\35374e53f3d195cc69c21b01c3b7ab63\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\35374e53f3d195cc69c21b01c3b7ab63\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.0.aar\e2aa55359964c7401849c78a4af5d53c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.0.aar\e2aa55359964c7401849c78a4af5d53c\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\1f011acf369ffa39bb497bce519d5659\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\1f011acf369ffa39bb497bce519d5659\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ed064631ddd4de34b4cb651142d1046f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ed064631ddd4de34b4cb651142d1046f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\06e083e616f334e64701f1091c34faea\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\06e083e616f334e64701f1091c34faea\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\c589722dc3b4cbea216e6aabca236c44\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\c589722dc3b4cbea216e6aabca236c44\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.0.aar\67bee67ebf6348db35656e9d9410799f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.0.aar\67bee67ebf6348db35656e9d9410799f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\910be0f49c9125adda971b48296aec19\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\910be0f49c9125adda971b48296aec19\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.0.aar\e4f3796062b73694b5c1b9f3015a9b45\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.0.aar\e4f3796062b73694b5c1b9f3015a9b45\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:17:9-59
+	tools:ignore
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:18:9-48
 	android:roundIcon
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:11:9-36
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:12:9-36
 	android:allowBackup
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:16:9-40
 activity#br.com.ddmsoftware.periodictable.MainActivity
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:16:9-19:58
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:19:9-22:58
 	android:label
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:21:13-45
 	android:theme
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:19:13-56
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:20:13-41
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:26:9-28:69
-MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\4d4ac1bb8fb3211c613d7e96ca15e11a\AndroidManifest.xml:20:9-121
-MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\4d4ac1bb8fb3211c613d7e96ca15e11a\AndroidManifest.xml:20:9-121
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:29:9-31:69
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\a8ff66ffb6a516ad59ec5cb979d89129\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\a8ff66ffb6a516ad59ec5cb979d89129\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:28:13-66
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:31:13-66
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:27:13-58
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:30:13-58
 activity#com.google.android.gms.ads.AdActivity
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:31:9-34:64
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:25:9-257
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:25:9-257
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:34:9-37:64
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:25:9-257
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:25:9-257
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:25:231-255
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:25:231-255
 	android:configChanges
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:33:13-122
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:36:13-122
 	android:theme
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:34:13-61
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:37:13-61
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:32:13-65
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:35:13-65
 activity#br.com.ddmsoftware.periodictable.WebviewActivity
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:35:9-53
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:38:9-53
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:35:19-50
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:38:19-50
 activity#br.com.ddmsoftware.periodictable.ResultActivity2
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:36:9-39:59
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:39:9-42:59
 	android:label
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:38:13-59
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:41:13-59
 	android:theme
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:37:13-44
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:40:13-44
 activity#br.com.ddmsoftware.periodictable.Splash
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:40:9-49:20
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:43:9-52:20
 	android:label
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:43:13-45
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:46:13-45
 	android:configChanges
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:42:13-74
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:45:13-74
 	android:theme
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:44:13-51
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:47:13-51
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:41:13-35
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:44:13-35
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:45:13-48:29
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:48:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml:50:27-74
 uses-sdk
 INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e2534f7d47e2bd224c93355880a44195\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e2534f7d47e2bd224c93355880a44195\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\ceb4fcc249e10a3aabade49ace0806cd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\ceb4fcc249e10a3aabade49ace0806cd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\acb2797561a3752f8ee026778a6fac75\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\acb2797561a3752f8ee026778a6fac75\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dcc72079cbe729a7480ab383717bed2d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dcc72079cbe729a7480ab383717bed2d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.6.0.aar\355e181e7f2cc7310b7aaed052d54e1f\AndroidManifest.xml:17:5-94
-MERGED from [com.google.android.gms:play-services-ads:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.6.0.aar\355e181e7f2cc7310b7aaed052d54e1f\AndroidManifest.xml:17:5-94
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\7a949b65900833d299574584141b336c\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c38976935a4d37a689d2a4e8aa85d7d\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c38976935a4d37a689d2a4e8aa85d7d\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\4d4ac1bb8fb3211c613d7e96ca15e11a\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\4d4ac1bb8fb3211c613d7e96ca15e11a\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1c42ad5086ef743089e2c5940fa22f7\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1c42ad5086ef743089e2c5940fa22f7\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\87eac159ca6ca3fd4b048c4bdf7402e4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\87eac159ca6ca3fd4b048c4bdf7402e4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\214690c4f5fc0ac1a06c8bed86c5a335\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\214690c4f5fc0ac1a06c8bed86c5a335\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\bb47007e2e71c79d777cf26c5e22dfdd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\bb47007e2e71c79d777cf26c5e22dfdd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\2c9e5a42bbc984bc5cf01ee6e6c54d21\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\2c9e5a42bbc984bc5cf01ee6e6c54d21\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8229615fb10f1bd8968aad903e9a6885\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8229615fb10f1bd8968aad903e9a6885\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\20bcfcaae047b8264cc0fb0f6616778e\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\20bcfcaae047b8264cc0fb0f6616778e\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\096ec8f8aefa9fa7132292807b830cee\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\096ec8f8aefa9fa7132292807b830cee\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3f9e48c9c90575462e6bfd3e20610d7a\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3f9e48c9c90575462e6bfd3e20610d7a\AndroidManifest.xml:21:5-23:58
-MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\28314cd5f9e28df7e60ca2dc9b599fa9\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\28314cd5f9e28df7e60ca2dc9b599fa9\AndroidManifest.xml:4:5-43
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\c5e6e58f3eedd2137decb91ebcd08302\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\c5e6e58f3eedd2137decb91ebcd08302\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\0d1525447b4cac372a829d546ceb3bbd\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\0d1525447b4cac372a829d546ceb3bbd\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\1e0c3f5792f4f37ceb8edb7ded86e28d\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\1e0c3f5792f4f37ceb8edb7ded86e28d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.0.aar\9fb92cb65f9639f324c0e91bdea460d9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.0.aar\9fb92cb65f9639f324c0e91bdea460d9\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7ca19982c7fd075cdc86b20da01f9688\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7ca19982c7fd075cdc86b20da01f9688\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\5aa6ad6a95705d961c146f10ce55d185\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\5aa6ad6a95705d961c146f10ce55d185\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\aa889da0e5c50444898cbca05a078353\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\aa889da0e5c50444898cbca05a078353\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a0cd8c35584b393cb82cea909a1a31a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a0cd8c35584b393cb82cea909a1a31a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.6.0.aar\9ac885119385f89cec79f91840975e6a\AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.6.0.aar\9ac885119385f89cec79f91840975e6a\AndroidManifest.xml:17:5-94
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.6.0.aar\0b3ca08963926aa5af816a3b29a90f5b\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c3b612a5ae1a9ebca02f223dd4c633f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.6.0.aar\3c3b612a5ae1a9ebca02f223dd4c633f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\a2b9f81e52717f11a5f85e89d5774e1c\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\a2b9f81e52717f11a5f85e89d5774e1c\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\a8ff66ffb6a516ad59ec5cb979d89129\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\a8ff66ffb6a516ad59ec5cb979d89129\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6648f52aa4795a44263a48d0dbe77de1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6648f52aa4795a44263a48d0dbe77de1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0d12e869073f7afad612d75db6fcc355\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0d12e869073f7afad612d75db6fcc355\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\dc7c4becd899bd8fbad05dba4348d196\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\dc7c4becd899bd8fbad05dba4348d196\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\06224263ab5a82665fc692c130378ba4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\06224263ab5a82665fc692c130378ba4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fb9f1e3a16b03681c65b3ece67339a62\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fb9f1e3a16b03681c65b3ece67339a62\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\bdbf0ab19da9158a57b02d94274800b4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\bdbf0ab19da9158a57b02d94274800b4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a880a70540ae6921c4501c1ce2cc0cf1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a880a70540ae6921c4501c1ce2cc0cf1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5db6a02cc15aecb61998deca38465f9f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5db6a02cc15aecb61998deca38465f9f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfeae29fd2c159ed58ed023c73916c46\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfeae29fd2c159ed58ed023c73916c46\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\35374e53f3d195cc69c21b01c3b7ab63\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.6.0.aar\35374e53f3d195cc69c21b01c3b7ab63\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.0.aar\e2aa55359964c7401849c78a4af5d53c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.0.aar\e2aa55359964c7401849c78a4af5d53c\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\1f011acf369ffa39bb497bce519d5659\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.6.0.aar\1f011acf369ffa39bb497bce519d5659\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ed064631ddd4de34b4cb651142d1046f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ed064631ddd4de34b4cb651142d1046f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\06e083e616f334e64701f1091c34faea\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.6.0.aar\06e083e616f334e64701f1091c34faea\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\c589722dc3b4cbea216e6aabca236c44\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\c589722dc3b4cbea216e6aabca236c44\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.0.aar\67bee67ebf6348db35656e9d9410799f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.0.aar\67bee67ebf6348db35656e9d9410799f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\910be0f49c9125adda971b48296aec19\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\910be0f49c9125adda971b48296aec19\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.0.aar\e4f3796062b73694b5c1b9f3015a9b45\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.0.aar\e4f3796062b73694b5c1b9f3015a9b45\AndroidManifest.xml:4:5-43
 INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
@@ -237,38 +310,164 @@ INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\ma
 		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable-v2\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e2534f7d47e2bd224c93355880a44195\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e2534f7d47e2bd224c93355880a44195\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\ceb4fcc249e10a3aabade49ace0806cd\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\ceb4fcc249e10a3aabade49ace0806cd\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dcc72079cbe729a7480ab383717bed2d\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dcc72079cbe729a7480ab383717bed2d\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1c42ad5086ef743089e2c5940fa22f7\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b1c42ad5086ef743089e2c5940fa22f7\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\87eac159ca6ca3fd4b048c4bdf7402e4\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\87eac159ca6ca3fd4b048c4bdf7402e4\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\214690c4f5fc0ac1a06c8bed86c5a335\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\214690c4f5fc0ac1a06c8bed86c5a335\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\bb47007e2e71c79d777cf26c5e22dfdd\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\bb47007e2e71c79d777cf26c5e22dfdd\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\2c9e5a42bbc984bc5cf01ee6e6c54d21\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\2c9e5a42bbc984bc5cf01ee6e6c54d21\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8229615fb10f1bd8968aad903e9a6885\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8229615fb10f1bd8968aad903e9a6885\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\20bcfcaae047b8264cc0fb0f6616778e\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\20bcfcaae047b8264cc0fb0f6616778e\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\096ec8f8aefa9fa7132292807b830cee\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\096ec8f8aefa9fa7132292807b830cee\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3f9e48c9c90575462e6bfd3e20610d7a\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3f9e48c9c90575462e6bfd3e20610d7a\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7ca19982c7fd075cdc86b20da01f9688\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7ca19982c7fd075cdc86b20da01f9688\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\5aa6ad6a95705d961c146f10ce55d185\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\5aa6ad6a95705d961c146f10ce55d185\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a0cd8c35584b393cb82cea909a1a31a6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a0cd8c35584b393cb82cea909a1a31a6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6648f52aa4795a44263a48d0dbe77de1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6648f52aa4795a44263a48d0dbe77de1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0d12e869073f7afad612d75db6fcc355\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0d12e869073f7afad612d75db6fcc355\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\dc7c4becd899bd8fbad05dba4348d196\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\dc7c4becd899bd8fbad05dba4348d196\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\06224263ab5a82665fc692c130378ba4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\06224263ab5a82665fc692c130378ba4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fb9f1e3a16b03681c65b3ece67339a62\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fb9f1e3a16b03681c65b3ece67339a62\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\bdbf0ab19da9158a57b02d94274800b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\bdbf0ab19da9158a57b02d94274800b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a880a70540ae6921c4501c1ce2cc0cf1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a880a70540ae6921c4501c1ce2cc0cf1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5db6a02cc15aecb61998deca38465f9f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5db6a02cc15aecb61998deca38465f9f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfeae29fd2c159ed58ed023c73916c46\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfeae29fd2c159ed58ed023c73916c46\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a1dc34beaec87691c533d1220a6ee002\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f7f2564cb12859ee8059d363bc6fb83a\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.0.aar\9aa5f782da440219fbd60503466f759a\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.0.aar\9d84ec48d87269654b258b96e682fe08\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:25:17-71
+permission#br.com.ddmsoftware.periodictable.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:27:22-76
+uses-permission#br.com.ddmsoftware.periodictable.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:27:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:31:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:31:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:31:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:31:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:32:13-35:29
+intent-filter#br.com.ddmsoftware.periodictable+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:32:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:33:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:34:27-58
+category#br.com.ddmsoftware.periodictable
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:34:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:40:9-44:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:40:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:40:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:41:13-43:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:41:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.0.aar\dfa38276ec9022639794d7a86a962761\AndroidManifest.xml:42:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\e66b85a7961b64c16583bd2bc8a098d6\AndroidManifest.xml:6:79-143
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3f56557d137366daf72585b1c39ebbde\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dmoraes\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\62a804fa9fed52f8fd0c89f0355a738d\AndroidManifest.xml:26:13-58

@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by dmoraes on 18/11/2017.
+ * Created by Douglimar Moraes  on 18/11/2017.
+ * Periodic Table method
+ *
  */
 
-public class PeriodicTable {
+class PeriodicTable {
 
     String z;
     String sym;
@@ -27,143 +29,7 @@ public class PeriodicTable {
     String hyperlink;
     String image;
 
-    public String getZ() {
-        return z;
-    }
-
-    public void setZ(String z) {
-        this.z = z;
-    }
-
-    public String getSym() {
-        return sym;
-    }
-
-    public void setSym(String sym) {
-        this.sym = sym;
-    }
-
-    public String getElement() {
-        return element;
-    }
-
-    public void setElement(String element) {
-        this.element = element;
-    }
-
-    public String getOficialLatim() {
-        return oficialLatim;
-    }
-
-    public void setOficialLatim(String oficialLatim) {
-        this.oficialLatim = oficialLatim;
-    }
-
-    public String getOriginName() {
-        return originName;
-    }
-
-    public void setOriginName(String originName) {
-        this.originName = originName;
-    }
-
-    public String getGroup() {
-        return group;
-    }
-
-    public void setGroup(String group) {
-        this.group = group;
-    }
-
-    public String getGroupName() {
-        return groupName;
-    }
-
-    public void setGroupName(String groupName) {
-        this.groupName = groupName;
-    }
-
-    public String getPeriod() {
-        return period;
-    }
-
-    public void setPeriod(String period) {
-        this.period = period;
-    }
-
-    public String getAtomicWeight() {
-        return atomicWeight;
-    }
-
-    public void setAtomicWeight(String atomicWeight) {
-        this.atomicWeight = atomicWeight;
-    }
-
-    public String getDensity() {
-        return density;
-    }
-
-    public void setDensity(String density) {
-        this.density = density;
-    }
-
-    public String getMeltingPoint() {
-        return meltingPoint;
-    }
-
-    public void setMeltingPoint(String meltingPoint) {
-        this.meltingPoint = meltingPoint;
-    }
-
-    public String getBoilingPoint() {
-        return boilingPoint;
-    }
-
-    public void setBoilingPoint(String boilingPoint) {
-        this.boilingPoint = boilingPoint;
-    }
-
-    public String getCj() {
-        return cj;
-    }
-
-    public void setCj(String cj) {
-        this.cj = cj;
-    }
-
-    public String getX10() {
-        return x10;
-    }
-
-    public void setX10(String x10) {
-        this.x10 = x10;
-    }
-
-    public String getAbundance() {
-        return abundance;
-    }
-
-    public void setAbundance(String abundance) {
-        this.abundance = abundance;
-    }
-
-    public String getHyperlink() {
-        return hyperlink;
-    }
-
-    public void setHyperlink(String hyperlink) {
-        this.hyperlink = hyperlink;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
-    public PeriodicTable(String z, String sym, String element, String oficialLatim, String originName, String group, String groupName, String period, String atomicWeight, String density, String meltingPoint, String boilingPoint, String cj, String x10, String abundance, String hyperlink, String image) {
+    private PeriodicTable(String z, String sym, String element, String oficialLatim, String originName, String group, String groupName, String period, String atomicWeight, String density, String meltingPoint, String boilingPoint, String cj, String x10, String abundance, String hyperlink, String image) {
         this.z = z;
         this.sym = sym;
         this.element = element;
@@ -189,7 +55,7 @@ public class PeriodicTable {
 
 
 
-    public List getAllPortugueseElements() {
+    public List<PeriodicTable> getAllPortugueseElements() {
 
         List<PeriodicTable> myList = new ArrayList<>();
 
@@ -315,7 +181,7 @@ public class PeriodicTable {
         return myList;
     }
 
-    public List getAllEnglishElements() {
+    public List<PeriodicTable> getAllEnglishElements() {
 
         List<PeriodicTable> myList = new ArrayList<>();
 

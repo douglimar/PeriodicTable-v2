@@ -1,20 +1,12 @@
-<resources>
-    <string name="alert_dialog_ok">OK</string>
-    <string name="alert_dialog_cancel">CANCELAR</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="btnBack">Voltar</string>
-    <string name="btnWikipedia">Mais informações (Wikipedia)</string>
-    <string name="btnShare">Compartilhar</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="tvResult_LatinName">Nome em Latim: </string>
-    <string name="tvResultGroupName">Nome do Grupo: </string>
     <string name="tvResultPeriod">Período: </string>
     <string name="tvAtomicWeight">Massa Atômica: </string>
     <string name="tvResultDensity">Densidade: </string>
     <string name="tvResultPontoFusao">Ponto de Fusão: </string>
     <string name="tvResultPontoEbulicao">Ponto de Ebulição: </string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1098336821710456/5195031604</string>
-    <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_TESTE" translatable="false" tools:keep="@string/banner_ad_unit_TESTE">ca-app-pub-3940256099942544/6300978111</string>
     <string name="lr" translatable="false">Lr</string>
     <string name="app_name">Tabela Periódica</string>
     <string name="metais_alcalinos">Metais Alcalinos</string>
@@ -34,19 +26,78 @@
     <string name="group">Grupo:</string>
     <string name="pipe" translatable="false">|</string>
     <string name="originName">Origem do Nome:</string>
-    <string name="abundancia">Abundancia (mg/kg):</string>
+    <string name="abundancia">Abundância (mg/kg):</string>
     <string name="CJC_10" translatable="false">C  J/(g·K):</string>
     <string name="x10" translatable="false">χ10:</string>
     <string name="tvResultTitle">  Detalhes do Elemento</string>
     <string name="tvResultTitle2">  Propriedades</string>
     <string name="network_connection">Sem conexão com a internet. Verifique sua conexão e tente novamente</string>
-    <string name="title_activity_splash" translatable="false">Splash</string>
-    <string name="loading">Carregando. Por favor, aguarde...</string>
+    <string name="loading">Carregando. Por favor, aguarde…</string>
     <string name="title_activity_result2">Tabela Periódica</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-
-
+    <string name="group_label">Legenda</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_9" translatable="false">9</string>
+    <string name="_10" translatable="false">10</string>
+    <string name="_11" translatable="false">11</string>
+    <string name="_12" translatable="false">12</string>
+    <string name="_13" translatable="false">13</string>
+    <string name="_14" translatable="false">14</string>
+    <string name="_15" translatable="false">15</string>
+    <string name="_16" translatable="false">16</string>
+    <string name="_17" translatable="false">17</string>
+    <string name="_18" translatable="false">18</string>
+    <string name="sg" translatable="false">Sg</string>
+    <string name="bh" translatable="false">Bh</string>
+    <string name="hs" translatable="false">Hs</string>
+    <string name="mt" translatable="false">Mt</string>
+    <string name="ds" translatable="false">Ds</string>
+    <string name="rg" translatable="false">Rg</string>
+    <string name="cn" translatable="false">Cn</string>
+    <string name="uut" translatable="false">Uut</string>
+    <string name="fl" translatable="false">Fl</string>
+    <string name="uup" translatable="false">Uup</string>
+    <string name="lv" translatable="false">Lv</string>
+    <string name="uus" translatable="false">Uus</string>
+    <string name="uuo" translatable="false">Uuo</string>
+    <string name="la" translatable="false">La</string>
+    <string name="ce" translatable="false">Ce</string>
+    <string name="nd" translatable="false">Nd</string>
+    <string name="pr" translatable="false">Pr</string>
+    <string name="pm" translatable="false">Pm</string>
+    <string name="sm" translatable="false">Sm</string>
+    <string name="eu" translatable="false">Eu</string>
+    <string name="gd" translatable="false">Gd</string>
+    <string name="tb" translatable="false">Tb</string>
+    <string name="dy" translatable="false">Dy</string>
+    <string name="ho" translatable="false">Ho</string>
+    <string name="er" translatable="false">Er</string>
+    <string name="tm" translatable="false">Tm</string>
+    <string name="yb" translatable="false">Yb</string>
+    <string name="lu" translatable="false">Lu</string>
+    <string name="ac" translatable="false">Ac</string>
+    <string name="th" translatable="false">Th</string>
+    <string name="pa" translatable="false">Pa</string>
+    <string name="u" translatable="false">U</string>
+    <string name="np" translatable="false">Np</string>
+    <string name="pu" translatable="false">Pu</string>
+    <string name="am" translatable="false">Am</string>
+    <string name="cm" translatable="false">Cm</string>
+    <string name="bk" translatable="false">Bk</string>
+    <string name="cf" translatable="false">Cf</string>
+    <string name="es" translatable="false">Es</string>
+    <string name="fm" translatable="false">Fm</string>
+    <string name="md" translatable="false">Md</string>
+    <string name="no" translatable="false">No</string>
+    <string name="webViewId" translatable="false">Webview</string>
+    <string name="firebird_webviewMessage" translatable="false">WebView Activity Load</string>
+    <string name="firebird_image" translatable="false">image</string>
 </resources>

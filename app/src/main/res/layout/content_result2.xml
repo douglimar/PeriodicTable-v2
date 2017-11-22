@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="@color/button_material_light"
+    android:background="@color/black_overlay"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="br.com.ddmsoftware.periodictable.ResultActivity2"
-    tools:showIn="@layout/activity_result2">
+    tools:showIn="@layout/activity_result2"
+    tools:ignore="Overdraw">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/button_material_light">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvResultTitle"
@@ -34,14 +34,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:background="@color/button_material_light">
+            android:orientation="vertical"
+            android:baselineAligned="false">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:orientation="vertical">
+
 
                 <!-- A CardView that contains a TextView -->
 
@@ -74,7 +70,8 @@
                             android:layout_row="0"
                             android:text="@string/z"
                             android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/textView42"
@@ -87,8 +84,9 @@
                             android:layout_rowSpan="2"
                             android:text="@string/pipe"
                             android:textColor="#e1dcdc"
-                            android:textSize="40dp"
-                            android:textStyle="normal" />
+                            android:textSize="40sp"
+                            android:textStyle="normal"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/textView33"
@@ -100,7 +98,8 @@
                             android:layout_row="0"
                             android:text="@string/name"
                             android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/textView45"
@@ -113,8 +112,9 @@
                             android:layout_rowSpan="2"
                             android:text="@string/pipe"
                             android:textColor="#e1dcdc"
-                            android:textSize="40dp"
-                            android:textStyle="normal" />
+                            android:textSize="40sp"
+                            android:textStyle="normal"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/textView34"
@@ -127,7 +127,8 @@
                             android:layout_row="2"
                             android:text="@string/group"
                             android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/textView41"
@@ -139,7 +140,8 @@
                             android:layout_row="2"
                             android:text="@string/tvResultPeriod"
                             android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/tvResultZ"
@@ -149,7 +151,8 @@
                             android:layout_columnWeight="1"
                             android:layout_gravity="center_horizontal"
                             android:layout_margin="2dp"
-                            android:layout_row="1" />
+                            android:layout_row="1"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/tvResultElement"
@@ -160,7 +163,8 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_margin="2dp"
                             android:layout_row="1"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/tvResultGroup"
@@ -171,7 +175,8 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_margin="2dp"
                             android:layout_row="3"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            tools:targetApi="lollipop" />
 
                         <TextView
                             android:id="@+id/tvResultPeriod"
@@ -182,7 +187,8 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_margin="2dp"
                             android:layout_row="3"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            tools:targetApi="lollipop" />
 
                     </GridLayout>
 
@@ -224,7 +230,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             ads:adSize="BANNER"
-                            ads:adUnitId="@string/banner_ad_unit_TESTE" />
+                            ads:adUnitId="@string/banner_ad_unit_id" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -254,9 +260,8 @@
                             android:id="@+id/textView62"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="0"
                             android:paddingRight="2dp"
+                            android:paddingLeft="2dp"
                             android:text="@string/name"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -265,8 +270,6 @@
                             android:id="@+id/tvResult_Element2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="0"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -274,9 +277,8 @@
                             android:id="@+id/textView63"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="1"
                             android:paddingRight="2dp"
+                            android:paddingLeft="2dp"
                             android:text="@string/tvResult_LatinName"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -285,8 +287,6 @@
                             android:id="@+id/tvResult_LatimName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="1"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -294,9 +294,9 @@
                             android:id="@+id/textView79"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="2"
                             android:paddingRight="2dp"
+                            android:paddingEnd="2dp"
+                            android:paddingLeft="2dp"
                             android:text="@string/originName"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -305,8 +305,6 @@
                             android:id="@+id/tvResultOriginName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="2"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -314,19 +312,16 @@
                             android:id="@+id/textView81"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="3"
+                            android:paddingLeft="2dp"
                             android:paddingRight="2dp"
                             android:text="@string/tvAtomicWeight"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tvResultAtomicWeigth"
+                            android:id="@+id/tvResultAtomicWeight"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="3"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -372,8 +367,7 @@
                             android:id="@+id/tvLabelDensidade"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="0"
+                            android:paddingLeft="2dp"
                             android:paddingRight="2dp"
                             android:text="@string/tvResultDensity"
                             android:textSize="16sp"
@@ -383,17 +377,14 @@
                             android:id="@+id/tvResultDensidade"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="0"
                             android:text="New Text"
                             android:textSize="16sp" />
 
                         <TextView
-                            android:id="@+id/tvLabelFusap"
+                            android:id="@+id/tvLabelFusao"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="1"
+                            android:paddingLeft="2dp"
                             android:paddingRight="2dp"
                             android:text="@string/tvResultPontoFusao"
                             android:textSize="16sp"
@@ -403,8 +394,6 @@
                             android:id="@+id/tvResultFusao"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="1"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -412,8 +401,7 @@
                             android:id="@+id/tvLabelEbulicao"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="2"
+                            android:paddingLeft="2dp"
                             android:paddingRight="2dp"
                             android:text="@string/tvResultPontoEbulicao"
                             android:textSize="16sp"
@@ -423,8 +411,6 @@
                             android:id="@+id/tvResultEbulicao"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="2"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -432,8 +418,7 @@
                             android:id="@+id/tvLabelAbundancia"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="3"
+                            android:paddingLeft="2dp"
                             android:paddingRight="2dp"
                             android:text="@string/abundancia"
                             android:textSize="16sp"
@@ -443,8 +428,6 @@
                             android:id="@+id/tvResult_Abundancia"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="3"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -452,8 +435,7 @@
                             android:id="@+id/tvLabel_CJ"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="4"
+                            android:paddingLeft="2dp"
                             android:paddingRight="2dp"
                             android:text="@string/CJC_10"
                             android:textSize="16sp"
@@ -463,8 +445,6 @@
                             android:id="@+id/tvResult_CJ"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="4"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -472,8 +452,7 @@
                             android:id="@+id/tvLabelX10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_row="5"
+                            android:paddingLeft="2dp"
                             android:paddingRight="2dp"
                             android:text="@string/x10"
                             android:textSize="16sp"
@@ -483,8 +462,6 @@
                             android:id="@+id/tvResult_X10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_row="5"
                             android:text="New Text"
                             android:textSize="16sp" />
 
@@ -494,11 +471,7 @@
                 </android.support.v7.widget.CardView>
 
 
-                <!-- A CardView that contains a TextView -->
-
-
             </LinearLayout>
-        </LinearLayout>
 
     </LinearLayout>
 

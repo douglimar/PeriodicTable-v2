@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable-v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e2534f7d47e2bd224c93355880a44195\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\7ca19982c7fd075cdc86b20da01f9688\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\a1dc34beaec87691c533d1220a6ee002\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f7f2564cb12859ee8059d363bc6fb83a\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

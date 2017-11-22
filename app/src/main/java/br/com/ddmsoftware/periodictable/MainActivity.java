@@ -3,8 +3,7 @@ package br.com.ddmsoftware.periodictable;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.annotation.NonNull;
 import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.style.ForegroundColorSpan;
@@ -19,10 +18,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.List;
 import java.util.Locale;
@@ -33,132 +31,134 @@ public class MainActivity extends AppCompatActivity
    //public static final PeriodicTable periodicTable_EXTRA_MESSAGE = new PeriodicTable();
     public static final String EXTRA_MESSAGE = "br.com.ddmsoftware.periodictable.MESSAGE";
 
-    List<PeriodicTable> myList;
+    private List<PeriodicTable> myList;
 
-    TextView tvHydrogenium;
-    TextView tvHelium;
-    TextView tvLithium;
-    TextView tvBeryllium;
-    TextView tvBoron;
-    TextView tvCarbonium;
-    TextView tvNitrogenium;
-    TextView tvOxygenium;
-    TextView tvFluorum;
-    TextView tvNeon;
-    TextView tvNatrium;
-    TextView tvMagnesium;
-    TextView tvAlumen;
-    TextView tvSilicium;
-    TextView tvPhosphorus;
-    TextView tvSulphur;
-    TextView tvClorum;
-    TextView tvArgon;
-    TextView tvKalium;
-    TextView tvCalcium;
-    TextView tvScandium;
-    TextView tvTitanium;
-    TextView tvVanadium;
-    TextView tvChromium;
-    TextView tvManganum;
-    TextView tvFerrum;
-    TextView tvCobaltum;
-    TextView tvNiccolum;
-    TextView tvCuprum;
-    TextView tvZincum;
-    TextView tvGalium;
-    TextView tvGermanium;
-    TextView tvArsenicum;
-    TextView tvSelenium;
-    TextView tvBromum;
-    TextView tvKrypton;
-    TextView tvRubidium;
-    TextView tvStrontium;
-    TextView tvYttrium;
-    TextView tvZirconium;
-    TextView tvNiobium;
-    TextView tvMolybdenum;
-    TextView tvTechnetium;
-    TextView tvRuthenium;
-    TextView tvRhodium;
-    TextView tvPalladium;
-    TextView tvArgentum;
-    TextView tvCadmium;
-    TextView tvIndium;
-    TextView tvStannum;
-    TextView tvStibium;
-    TextView tvTellurium;
-    TextView tvIodum;
-    TextView tvXenon;
-    TextView tvCaesium;
-    TextView tvBarium;
-    TextView tvLanthanum;
-    TextView tvCerium;
-    TextView tvPraseodymium;
-    TextView tvNeodymium;
-    TextView tvPromethium;
-    TextView tvSamarium;
-    TextView tvEuropium;
-    TextView tvGadolinium;
-    TextView tvTerbium;
-    TextView tvDysprosium;
-    TextView tvHolmium;
-    TextView tvErbium;
-    TextView tvThulium;
-    TextView tvYtterbium;
-    TextView tvLutetium;
-    TextView tvHafnium;
-    TextView tvTantalum;
-    TextView tvWolframium;
-    TextView tvRhenium;
-    TextView tvOsmium;
-    TextView tvIridium;
-    TextView tvPlatinum;
-    TextView tvAurum;
-    TextView tvHydrargyrum;
-    TextView tvThallium;
-    TextView tvPlumbum;
-    TextView tvBismuthum;
-    TextView tvPolonium;
-    TextView tvAstatum;
-    TextView tvRadon;
-    TextView tvFrancium;
-    TextView tvRadium;
-    TextView tvActinium;
-    TextView tvThorium;
-    TextView tvProtactinium;
-    TextView tvUranium;
-    TextView tvNeptunium;
-    TextView tvPlutonium;
-    TextView tvAmericium;
-    TextView tvCurium;
-    TextView tvBerkelium;
-    TextView tvCalifornium;
-    TextView tvEinsteinium;
-    TextView tvFermium;
-    TextView tvMendelevium;
-    TextView tvNobelium;
-    TextView tvLawrencium;
-    TextView tvRhuterfordium;
-    TextView tvDubnium;
-    TextView tvSeaborgium;
-    TextView tvBohrium;
-    TextView tvHassium;
-    TextView tvMeitnerium;
-    TextView tvDarmstadtium;
-    TextView tvRoentgenium;
-    TextView tvCopernicium;
-    TextView tvUnuntrium;
-    TextView tvFlerovium;
-    TextView tvUnunpentium;
-    TextView tvLivermorium;
-    TextView tvUnunsentium;
-    TextView tvUnunoctium;
+    private TextView tvHydrogenium;
+    private TextView tvHelium;
+    private TextView tvLithium;
+    private TextView tvBeryllium;
+    private TextView tvBoron;
+    private TextView tvCarbonium;
+    private TextView tvNitrogenium;
+    private TextView tvOxygenium;
+    private TextView tvFluorum;
+    private TextView tvNeon;
+    private TextView tvNatrium;
+    private TextView tvMagnesium;
+    private TextView tvAlumen;
+    private TextView tvSilicium;
+    private TextView tvPhosphorus;
+    private TextView tvSulphur;
+    private TextView tvClorum;
+    private TextView tvArgon;
+    private TextView tvKalium;
+    private TextView tvCalcium;
+    private TextView tvScandium;
+    private TextView tvTitanium;
+    private TextView tvVanadium;
+    private TextView tvChromium;
+    private TextView tvManganum;
+    private TextView tvFerrum;
+    private TextView tvCobaltum;
+    private TextView tvNiccolum;
+    private TextView tvCuprum;
+    private TextView tvZincum;
+    private TextView tvGalium;
+    private TextView tvGermanium;
+    private TextView tvArsenicum;
+    private TextView tvSelenium;
+    private TextView tvBromum;
+    private TextView tvKrypton;
+    private TextView tvRubidium;
+    private TextView tvStrontium;
+    private TextView tvYttrium;
+    private TextView tvZirconium;
+    private TextView tvNiobium;
+    private TextView tvMolybdenum;
+    private TextView tvTechnetium;
+    private TextView tvRuthenium;
+    private TextView tvRhodium;
+    private TextView tvPalladium;
+    private TextView tvArgentum;
+    private TextView tvCadmium;
+    private TextView tvIndium;
+    private TextView tvStannum;
+    private TextView tvStibium;
+    private TextView tvTellurium;
+    private TextView tvIodum;
+    private TextView tvXenon;
+    private TextView tvCaesium;
+    private TextView tvBarium;
+    private TextView tvLanthanum;
+    private TextView tvCerium;
+    private TextView tvPraseodymium;
+    private TextView tvNeodymium;
+    private TextView tvPromethium;
+    private TextView tvSamarium;
+    private TextView tvEuropium;
+    private TextView tvGadolinium;
+    private TextView tvTerbium;
+    private TextView tvDysprosium;
+    private TextView tvHolmium;
+    private TextView tvErbium;
+    private TextView tvThulium;
+    private TextView tvYtterbium;
+    private TextView tvLutetium;
+    private TextView tvHafnium;
+    private TextView tvTantalum;
+    private TextView tvWolframium;
+    private TextView tvRhenium;
+    private TextView tvOsmium;
+    private TextView tvIridium;
+    private TextView tvPlatinum;
+    private TextView tvAurum;
+    private TextView tvHydrargyrum;
+    private TextView tvThallium;
+    private TextView tvPlumbum;
+    private TextView tvBismuthum;
+    private TextView tvPolonium;
+    private TextView tvAstatum;
+    private TextView tvRadon;
+    private TextView tvFrancium;
+    private TextView tvRadium;
+    private TextView tvActinium;
+    private TextView tvThorium;
+    private TextView tvProtactinium;
+    private TextView tvUranium;
+    private TextView tvNeptunium;
+    private TextView tvPlutonium;
+    private TextView tvAmericium;
+    private TextView tvCurium;
+    private TextView tvBerkelium;
+    private TextView tvCalifornium;
+    private TextView tvEinsteinium;
+    private TextView tvFermium;
+    private TextView tvMendelevium;
+    private TextView tvNobelium;
+    private TextView tvLawrencium;
+    private TextView tvRhuterfordium;
+    private TextView tvDubnium;
+    private TextView tvSeaborgium;
+    private TextView tvBohrium;
+    private TextView tvHassium;
+    private TextView tvMeitnerium;
+    private TextView tvDarmstadtium;
+    private TextView tvRoentgenium;
+    private TextView tvCopernicium;
+    private TextView tvUnuntrium;
+    private TextView tvFlerovium;
+    private TextView tvUnunpentium;
+    private TextView tvLivermorium;
+    private TextView tvUnunsentium;
+    private TextView tvUnunoctium;
+
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         PeriodicTable periodicTable = new PeriodicTable();
@@ -171,124 +171,124 @@ public class MainActivity extends AppCompatActivity
         } else
             myList = periodicTable.getAllPortugueseElements();
 
-        tvHydrogenium= (TextView) findViewById(R.id.tvHydrogenium);
-        tvHelium= (TextView) findViewById(R.id.tvHelium);
-        tvLithium= (TextView) findViewById(R.id.tvLithium);
-        tvBeryllium= (TextView) findViewById(R.id.tvBeryllium);
-        tvBoron= (TextView) findViewById(R.id.tvBoron);
-        tvCarbonium= (TextView) findViewById(R.id.tvCarbon);
-        tvNitrogenium= (TextView) findViewById(R.id.tvNitrogen);
-        tvOxygenium= (TextView) findViewById(R.id.tvOxygen);
-        tvFluorum= (TextView) findViewById(R.id.tvFluorine);
-        tvNeon= (TextView) findViewById(R.id.tvNeon);
-        tvNatrium= (TextView) findViewById(R.id.tvSodium);
-        tvMagnesium= (TextView) findViewById(R.id.tvMagnesium);
-        tvAlumen= (TextView) findViewById(R.id.tvAluminium);
-        tvSilicium= (TextView) findViewById(R.id.tvSilicon);
-        tvPhosphorus= (TextView) findViewById(R.id.tvPhosphorus);
-        tvSulphur= (TextView) findViewById(R.id.tvSulfur);
-        tvClorum= (TextView) findViewById(R.id.tvChlorine);
-        tvArgon= (TextView) findViewById(R.id.tvArgon);
-        tvKalium= (TextView) findViewById(R.id.tvPotassium);
-        tvCalcium= (TextView) findViewById(R.id.tvCalcium);
-        tvScandium= (TextView) findViewById(R.id.tvScandium);
-        tvTitanium= (TextView) findViewById(R.id.tvTitanium);
-        tvVanadium= (TextView) findViewById(R.id.tvVanadium);
-        tvChromium= (TextView) findViewById(R.id.tvChromium);
-        tvManganum= (TextView) findViewById(R.id.tvManganese);
-        tvFerrum= (TextView) findViewById(R.id.tvIron);
-        tvCobaltum= (TextView) findViewById(R.id.tvCobalt);
-        tvNiccolum= (TextView) findViewById(R.id.tvNickel);
-        tvCuprum= (TextView) findViewById(R.id.tvCopper);
-        tvZincum= (TextView) findViewById(R.id.tvZinc);
-        tvGalium= (TextView) findViewById(R.id.tvGallium);
-        tvGermanium= (TextView) findViewById(R.id.tvGermanium);
-        tvArsenicum= (TextView) findViewById(R.id.tvArsenic);
-        tvSelenium= (TextView) findViewById(R.id.tvSelenium);
-        tvBromum= (TextView) findViewById(R.id.tvBromine);
-        tvKrypton= (TextView) findViewById(R.id.tvKrypton);
-        tvRubidium= (TextView) findViewById(R.id.tvRubidium);
-        tvStrontium= (TextView) findViewById(R.id.tvStrontium);
-        tvYttrium= (TextView) findViewById(R.id.tvYttrium);
-        tvZirconium= (TextView) findViewById(R.id.tvZirconium);
-        tvNiobium= (TextView) findViewById(R.id.tvNiobium);
-        tvMolybdenum= (TextView) findViewById(R.id.tvMolybdenum);
-        tvTechnetium= (TextView) findViewById(R.id.tvTechnetium);
-        tvRuthenium= (TextView) findViewById(R.id.tvRuthenium);
-        tvRhodium= (TextView) findViewById(R.id.tvRhodium);
-        tvPalladium= (TextView) findViewById(R.id.tvPalladium);
-        tvArgentum= (TextView) findViewById(R.id.tvSilver);
-        tvCadmium= (TextView) findViewById(R.id.tvCadmium);
-        tvIndium= (TextView) findViewById(R.id.tvIndium);
-        tvStannum= (TextView) findViewById(R.id.tvTin);
-        tvStibium= (TextView) findViewById(R.id.tvAntimony);
-        tvTellurium= (TextView) findViewById(R.id.tvTellurium);
-        tvIodum= (TextView) findViewById(R.id.tvIodine);
-        tvXenon= (TextView) findViewById(R.id.tvXenon);
-        tvCaesium= (TextView) findViewById(R.id.tvCaesium);
-        tvBarium= (TextView) findViewById(R.id.tvBarium);
-        tvLanthanum= (TextView) findViewById(R.id.tvLanthanum);
-        tvCerium= (TextView) findViewById(R.id.tvCerium);
-        tvPraseodymium= (TextView) findViewById(R.id.tvPraseodymium);
-        tvNeodymium= (TextView) findViewById(R.id.tvNeodymium);
-        tvPromethium= (TextView) findViewById(R.id.tvPromethium);
-        tvSamarium= (TextView) findViewById(R.id.tvSamarium);
-        tvEuropium= (TextView) findViewById(R.id.tvEuropium);
-        tvGadolinium= (TextView) findViewById(R.id.tvGadolinium);
-        tvTerbium= (TextView) findViewById(R.id.tvTerbium);
-        tvDysprosium= (TextView) findViewById(R.id.tvDysprosium);
-        tvHolmium= (TextView) findViewById(R.id.tvHolmium);
-        tvErbium= (TextView) findViewById(R.id.tvErbium);
-        tvThulium= (TextView) findViewById(R.id.tvThulium);
-        tvYtterbium= (TextView) findViewById(R.id.tvYtterbium);
-        tvLutetium= (TextView) findViewById(R.id.tvLutetium);
-        tvHafnium= (TextView) findViewById(R.id.tvHafnium);
-        tvTantalum= (TextView) findViewById(R.id.tvTantalum);
-        tvWolframium= (TextView) findViewById(R.id.tvTungsten);
-        tvRhenium= (TextView) findViewById(R.id.tvRhenium);
-        tvOsmium= (TextView) findViewById(R.id.tvOsmium);
-        tvIridium= (TextView) findViewById(R.id.tvIridium);
-        tvPlatinum= (TextView) findViewById(R.id.tvPlatinum);
-        tvAurum= (TextView) findViewById(R.id.tvGold);
-        tvHydrargyrum= (TextView) findViewById(R.id.tvMercury);
-        tvThallium= (TextView) findViewById(R.id.tvThallium);
-        tvPlumbum= (TextView) findViewById(R.id.tvLead);
-        tvBismuthum= (TextView) findViewById(R.id.tvBismuth);
-        tvPolonium= (TextView) findViewById(R.id.tvPolonium);
-        tvAstatum= (TextView) findViewById(R.id.tvAstatine);
-        tvRadon= (TextView) findViewById(R.id.tvRadon);
-        tvFrancium= (TextView) findViewById(R.id.tvFrancium);
-        tvRadium= (TextView) findViewById(R.id.tvRadium);
-        tvActinium= (TextView) findViewById(R.id.tvActinium);
-        tvThorium= (TextView) findViewById(R.id.tvThorium);
-        tvProtactinium= (TextView) findViewById(R.id.tvProtactinium);
-        tvUranium= (TextView) findViewById(R.id.tvUranium);
-        tvNeptunium= (TextView) findViewById(R.id.tvNeptunium);
-        tvPlutonium= (TextView) findViewById(R.id.tvPlutonium);
-        tvAmericium= (TextView) findViewById(R.id.tvAmericium);
-        tvCurium= (TextView) findViewById(R.id.tvCurium);
-        tvBerkelium= (TextView) findViewById(R.id.tvBerkelium);
-        tvCalifornium= (TextView) findViewById(R.id.tvCalifornium);
-        tvEinsteinium= (TextView) findViewById(R.id.tvEinsteinium);
-        tvFermium= (TextView) findViewById(R.id.tvFermium);
-        tvMendelevium= (TextView) findViewById(R.id.tvMendelevium);
-        tvNobelium= (TextView) findViewById(R.id.tvNobelium);
-        tvLawrencium= (TextView) findViewById(R.id.tvLawrencium);
-        tvRhuterfordium= (TextView) findViewById(R.id.tvRutherfordium);
-        tvDubnium= (TextView) findViewById(R.id.tvDubnium);
-        tvSeaborgium= (TextView) findViewById(R.id.tvSeaborgium);
-        tvBohrium= (TextView) findViewById(R.id.tvBohrium);
-        tvHassium= (TextView) findViewById(R.id.tvHassium);
-        tvMeitnerium= (TextView) findViewById(R.id.tvMeitnerium);
-        tvDarmstadtium= (TextView) findViewById(R.id.tvDarmstadtium);
-        tvRoentgenium= (TextView) findViewById(R.id.tvRoentgenium);
-        tvCopernicium= (TextView) findViewById(R.id.tvCopernicium);
-        tvUnuntrium= (TextView) findViewById(R.id.tvUnuntrium);
-        tvFlerovium= (TextView) findViewById(R.id.tvFlerovium);
-        tvUnunpentium= (TextView) findViewById(R.id.tvUnunpentium);
-        tvLivermorium= (TextView) findViewById(R.id.tvLivermorium);
-        tvUnunsentium= (TextView) findViewById(R.id.tvUnunseptium);
-        tvUnunoctium= (TextView) findViewById(R.id.tvUnunoctium);
+        tvHydrogenium= findViewById(R.id.tvHydrogenium);
+        tvHelium= findViewById(R.id.tvHelium);
+        tvLithium= findViewById(R.id.tvLithium);
+        tvBeryllium= findViewById(R.id.tvBeryllium);
+        tvBoron= findViewById(R.id.tvBoron);
+        tvCarbonium= findViewById(R.id.tvCarbon);
+        tvNitrogenium= findViewById(R.id.tvNitrogen);
+        tvOxygenium= findViewById(R.id.tvOxygen);
+        tvFluorum= findViewById(R.id.tvFluorine);
+        tvNeon= findViewById(R.id.tvNeon);
+        tvNatrium= findViewById(R.id.tvSodium);
+        tvMagnesium= findViewById(R.id.tvMagnesium);
+        tvAlumen= findViewById(R.id.tvAluminium);
+        tvSilicium= findViewById(R.id.tvSilicon);
+        tvPhosphorus= findViewById(R.id.tvPhosphorus);
+        tvSulphur= findViewById(R.id.tvSulfur);
+        tvClorum= findViewById(R.id.tvChlorine);
+        tvArgon= findViewById(R.id.tvArgon);
+        tvKalium= findViewById(R.id.tvPotassium);
+        tvCalcium= findViewById(R.id.tvCalcium);
+        tvScandium= findViewById(R.id.tvScandium);
+        tvTitanium= findViewById(R.id.tvTitanium);
+        tvVanadium= findViewById(R.id.tvVanadium);
+        tvChromium= findViewById(R.id.tvChromium);
+        tvManganum= findViewById(R.id.tvManganese);
+        tvFerrum= findViewById(R.id.tvIron);
+        tvCobaltum= findViewById(R.id.tvCobalt);
+        tvNiccolum= findViewById(R.id.tvNickel);
+        tvCuprum= findViewById(R.id.tvCopper);
+        tvZincum= findViewById(R.id.tvZinc);
+        tvGalium= findViewById(R.id.tvGallium);
+        tvGermanium= findViewById(R.id.tvGermanium);
+        tvArsenicum= findViewById(R.id.tvArsenic);
+        tvSelenium= findViewById(R.id.tvSelenium);
+        tvBromum= findViewById(R.id.tvBromine);
+        tvKrypton= findViewById(R.id.tvKrypton);
+        tvRubidium= findViewById(R.id.tvRubidium);
+        tvStrontium= findViewById(R.id.tvStrontium);
+        tvYttrium= findViewById(R.id.tvYttrium);
+        tvZirconium= findViewById(R.id.tvZirconium);
+        tvNiobium= findViewById(R.id.tvNiobium);
+        tvMolybdenum= findViewById(R.id.tvMolybdenum);
+        tvTechnetium= findViewById(R.id.tvTechnetium);
+        tvRuthenium= findViewById(R.id.tvRuthenium);
+        tvRhodium= findViewById(R.id.tvRhodium);
+        tvPalladium= findViewById(R.id.tvPalladium);
+        tvArgentum= findViewById(R.id.tvSilver);
+        tvCadmium= findViewById(R.id.tvCadmium);
+        tvIndium= findViewById(R.id.tvIndium);
+        tvStannum= findViewById(R.id.tvTin);
+        tvStibium= findViewById(R.id.tvAntimony);
+        tvTellurium= findViewById(R.id.tvTellurium);
+        tvIodum= findViewById(R.id.tvIodine);
+        tvXenon= findViewById(R.id.tvXenon);
+        tvCaesium= findViewById(R.id.tvCaesium);
+        tvBarium= findViewById(R.id.tvBarium);
+        tvLanthanum= findViewById(R.id.tvLanthanum);
+        tvCerium= findViewById(R.id.tvCerium);
+        tvPraseodymium= findViewById(R.id.tvPraseodymium);
+        tvNeodymium= findViewById(R.id.tvNeodymium);
+        tvPromethium= findViewById(R.id.tvPromethium);
+        tvSamarium= findViewById(R.id.tvSamarium);
+        tvEuropium= findViewById(R.id.tvEuropium);
+        tvGadolinium= findViewById(R.id.tvGadolinium);
+        tvTerbium= findViewById(R.id.tvTerbium);
+        tvDysprosium= findViewById(R.id.tvDysprosium);
+        tvHolmium= findViewById(R.id.tvHolmium);
+        tvErbium= findViewById(R.id.tvErbium);
+        tvThulium= findViewById(R.id.tvThulium);
+        tvYtterbium= findViewById(R.id.tvYtterbium);
+        tvLutetium= findViewById(R.id.tvLutetium);
+        tvHafnium= findViewById(R.id.tvHafnium);
+        tvTantalum= findViewById(R.id.tvTantalum);
+        tvWolframium= findViewById(R.id.tvTungsten);
+        tvRhenium= findViewById(R.id.tvRhenium);
+        tvOsmium= findViewById(R.id.tvOsmium);
+        tvIridium= findViewById(R.id.tvIridium);
+        tvPlatinum= findViewById(R.id.tvPlatinum);
+        tvAurum= findViewById(R.id.tvGold);
+        tvHydrargyrum= findViewById(R.id.tvMercury);
+        tvThallium= findViewById(R.id.tvThallium);
+        tvPlumbum= findViewById(R.id.tvLead);
+        tvBismuthum= findViewById(R.id.tvBismuth);
+        tvPolonium= findViewById(R.id.tvPolonium);
+        tvAstatum= findViewById(R.id.tvAstatine);
+        tvRadon= findViewById(R.id.tvRadon);
+        tvFrancium= findViewById(R.id.tvFrancium);
+        tvRadium= findViewById(R.id.tvRadium);
+        tvActinium= findViewById(R.id.tvActinium);
+        tvThorium= findViewById(R.id.tvThorium);
+        tvProtactinium= findViewById(R.id.tvProtactinium);
+        tvUranium= findViewById(R.id.tvUranium);
+        tvNeptunium= findViewById(R.id.tvNeptunium);
+        tvPlutonium= findViewById(R.id.tvPlutonium);
+        tvAmericium= findViewById(R.id.tvAmericium);
+        tvCurium= findViewById(R.id.tvCurium);
+        tvBerkelium= findViewById(R.id.tvBerkelium);
+        tvCalifornium= findViewById(R.id.tvCalifornium);
+        tvEinsteinium= findViewById(R.id.tvEinsteinium);
+        tvFermium= findViewById(R.id.tvFermium);
+        tvMendelevium= findViewById(R.id.tvMendelevium);
+        tvNobelium= findViewById(R.id.tvNobelium);
+        tvLawrencium= findViewById(R.id.tvLawrencium);
+        tvRhuterfordium= findViewById(R.id.tvRutherfordium);
+        tvDubnium= findViewById(R.id.tvDubnium);
+        tvSeaborgium= findViewById(R.id.tvSeaborgium);
+        tvBohrium= findViewById(R.id.tvBohrium);
+        tvHassium= findViewById(R.id.tvHassium);
+        tvMeitnerium= findViewById(R.id.tvMeitnerium);
+        tvDarmstadtium= findViewById(R.id.tvDarmstadtium);
+        tvRoentgenium= findViewById(R.id.tvRoentgenium);
+        tvCopernicium= findViewById(R.id.tvCopernicium);
+        tvUnuntrium= findViewById(R.id.tvUnuntrium);
+        tvFlerovium= findViewById(R.id.tvFlerovium);
+        tvUnunpentium= findViewById(R.id.tvUnunpentium);
+        tvLivermorium= findViewById(R.id.tvLivermorium);
+        tvUnunsentium= findViewById(R.id.tvUnunseptium);
+        tvUnunoctium= findViewById(R.id.tvUnunoctium);
 
         TextView[] aTextView = {tvHydrogenium,  tvHelium,       tvLithium,      tvBeryllium,    tvBoron,        tvCarbonium,    tvNitrogenium,
                 tvOxygenium,    tvFluorum,      tvNeon,	        tvNatrium,	    tvMagnesium,	tvAlumen,	    tvSilicium,	    tvPhosphorus,
@@ -309,9 +309,7 @@ public class MainActivity extends AppCompatActivity
 
         for (int i = 0; i <= myList.size()-1; i++) {
 
-            formatElement(aTextView[i], myList.get(i).sym, myList.get(i).element, myList.get(i).atomicWeight);
-            //System.out.println("TESTE>> " +myList.get(i).sym + " " + myList.get(i).element + " " +  myList.get(i).atomicWeight);
-
+            formatElement(aTextView[i], myList.get(i).sym, myList.get(i).element);
         }
 
 
@@ -670,27 +668,30 @@ public class MainActivity extends AppCompatActivity
             @Override public void onClick(View view){ String[] text = tvUnunoctium.getText().toString().split("\n");onElementsClick(text[1]);}
         });
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
         navigationView.setItemIconTintList(null);
 
         // Create a AdView
         // Load Advertisement Banner
-        AdView mAdView = (AdView) findViewById(R.id.adViewMain);
+        AdView mAdView = findViewById(R.id.adViewMain);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -722,16 +723,16 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
+        //int id = item.getItemId();
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
-    public void formatElement(TextView pTextView,String pSymbol, String pElement, String pAtomicWeight) {
+    private void formatElement(TextView pTextView,String pSymbol, String pElement) {
 
         // Format Symbol of the Element
         SpannableString span1 = new SpannableString(pSymbol);
@@ -786,6 +787,12 @@ public class MainActivity extends AppCompatActivity
 
 
             }
+
+            Bundle bundle = new Bundle();
+            bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "Main");
+            bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "On_Elements_Click");
+            bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
+            mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
 
         }
 

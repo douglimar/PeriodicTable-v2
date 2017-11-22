@@ -1,27 +1,23 @@
 package br.com.ddmsoftware.periodictable;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.net.ConnectivityManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class ResultActivity2 extends AppCompatActivity {
 
@@ -37,7 +33,7 @@ public class ResultActivity2 extends AppCompatActivity {
     private TextView tvResult_Element2;
     private TextView tvResult_LatimName;
     private TextView tvResultOriginName;
-    private TextView tvResultAtomicWeigth;
+    private TextView tvResultAtomicWeight;
     private TextView tvResultDensidade;
     private TextView tvResultFusao;
     private TextView tvResultEbulicao;
@@ -45,15 +41,9 @@ public class ResultActivity2 extends AppCompatActivity {
     private TextView tvResult_CJ;
     private TextView tvResult_X10;
 
-    private TextView tvLabelDensidade;
-    private TextView tvLabelFusao;
-    private TextView tvLabelEbulicao;
-    private TextView tvLabel_Abundancia;
-    private TextView tvLabel_CJ;
-    private TextView tvLabel_X10;
-
-
     private AppBarLayout appBarLayoutImage;
+
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     private enum Elements {
         H,He, Li, Be,B,C,N,O,F,Ne,Na,Mg,Al,Si,P,S,Cl,Ar,K,Ca,Sc,Ti,V,Cr,Mn,
@@ -78,7 +68,7 @@ public class ResultActivity2 extends AppCompatActivity {
         tvResult_Element2 = findViewById(R.id.tvResult_Element2);
         tvResult_LatimName = findViewById(R.id.tvResult_LatimName);
         tvResultOriginName = findViewById(R.id.tvResultOriginName);
-        tvResultAtomicWeigth = findViewById(R.id.tvResultAtomicWeigth);
+        tvResultAtomicWeight = findViewById(R.id.tvResultAtomicWeight);
         tvResultDensidade = findViewById(R.id.tvResultDensidade);
         tvResultFusao = findViewById(R.id.tvResultFusao);
         tvResultEbulicao = findViewById(R.id.tvResultEbulicao);
@@ -94,10 +84,13 @@ public class ResultActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                //        .setAction("Action", null).show();
+                Bundle bundle = new Bundle();
+                bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "Wiki");
+                bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "Wikipedia_Click");
+                bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
 
-                // Valida se a conexao com a internet existe
+                // Valida se a conexão com a internet existe
                 if (checkConnection()) {
                     Intent intent = new Intent(ResultActivity2.this, WebviewActivity.class);
                     intent.putExtra(URL_MESSAGE, url);
@@ -123,6 +116,9 @@ public class ResultActivity2 extends AppCompatActivity {
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
 
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
     }
 
 
@@ -136,6 +132,8 @@ public class ResultActivity2 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @SuppressWarnings("ConstantConditions")
+    @SuppressLint("SetTextI18n")
     private void receiveDataFromActivity() {
                 /*
         Z[0]                    Sym[1]	                Element[2]
@@ -150,6 +148,8 @@ public class ResultActivity2 extends AppCompatActivity {
         Intent intent = getIntent();
 
         Bundle extra = intent.getExtras();
+        assert extra != null;
+
         String message = extra.getString(MainActivity.EXTRA_MESSAGE);
 
         aResult = message != null ? message.split( ";" ) : new String[0];
@@ -167,14 +167,14 @@ public class ResultActivity2 extends AppCompatActivity {
         tvResult_Element2.setText(aResult[2] + " (" + aResult[1] +")"); // Element
         tvResult_LatimName.setText(aResult[3]);//Latim name
         tvResultOriginName.setText(aResult[4]); //Origin name
-        tvResultAtomicWeigth.setText(aResult[8]); //Atomic Weight
+        tvResultAtomicWeight.setText(aResult[8]); //Atomic Weight
 
         tvResultDensidade.setText(aResult[9]); // Density
-        tvResultFusao.setText(aResult[10]); //"Ponto de Ebulicao: " +
-        tvResultEbulicao.setText(aResult[11]); //"Ponto de Ebulicao: " +
-        tvResult_Abundancia.setText(aResult[14]); //"Ponto de Ebulicao: " +
-        tvResult_CJ.setText(aResult[12]); //"Ponto de Ebulicao: " +
-        tvResult_X10.setText(aResult[13]); //"Ponto de Ebulicao: " +
+        tvResultFusao.setText(aResult[10]); //"Ponto de Fusão: " +
+        tvResultEbulicao.setText(aResult[11]); //"Ponto de Ebulição: " +
+        tvResult_Abundancia.setText(aResult[14]); //"Abundância: " +
+        tvResult_CJ.setText(aResult[12]); //"CJ: " +
+        tvResult_X10.setText(aResult[13]); //"X10: " +
 
         url = aResult[15];
 
@@ -312,16 +312,13 @@ public class ResultActivity2 extends AppCompatActivity {
 
     /* Function to validate the Internet connection before start a search on Wikipedia
 	 */
-    public  boolean checkConnection() {
+    private boolean checkConnection() {
         boolean conectado;
-        ConnectivityManager conectivtyManager = (ConnectivityManager) getSystemService( Context.CONNECTIVITY_SERVICE);
-        if (conectivtyManager.getActiveNetworkInfo() != null
-                && conectivtyManager.getActiveNetworkInfo().isAvailable()
-                && conectivtyManager.getActiveNetworkInfo().isConnected()) {
-            conectado = true;
-        } else {
-            conectado = false;
-        }
+        ConnectivityManager conectivityManager = (ConnectivityManager) getSystemService( Context.CONNECTIVITY_SERVICE);
+        assert conectivityManager != null;
+        conectado = conectivityManager.getActiveNetworkInfo() != null
+                && conectivityManager.getActiveNetworkInfo().isAvailable()
+                && conectivityManager.getActiveNetworkInfo().isConnected();
         return conectado;
     }
 
